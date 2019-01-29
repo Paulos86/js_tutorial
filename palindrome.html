@@ -3,18 +3,33 @@
   <head>
     <title>Learn enough Javascript</title>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css'>
     <script src='bundle.js'></script>
   </head>
   <body>
-    <h1>Palindrome Tester</h1>
-    <form id='palindromeTester'>
-      <textarea name='phrase' rows=10 cols=30></textarea>
-      <button type='submit'>Is it a palindrome?</button>
-    </form>
-    <h2>Result</h2>
-    <p id='palindromeResult'></p>
-    <hr/>
+    <section class='hero is-fullheight'>
+      <div class='hero-body'>
+        <div class='container'>
+          <h1 class='title'>Palindrome Tester</h1>
+          <form id='palindromeTester'>
+            <div class='field'>
+              <textarea name='phrase' class='textarea'></textarea>
+            </div>
+            <button type='submit' class='button'>Is it a palindrome?</button>
+          </form>
+          <h2 class='subtitle'>Result</h2>
+          <p id='palindromeResult'></p>
+        </div>
+      </div>
+    </section>
 
-    <a href='shopit://categories/b0107595-4a9d-4083-9073-1ed066d91815'>to food!</a>
+    <section class='hero is-fullheight'>
+      <div class='hero-body'>
+        <div class='container'>
+          <a href='shopit://categories/b0107595-4a9d-4083-9073-1ed066d91815'>to food!</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
